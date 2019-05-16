@@ -1,0 +1,44 @@
+{
+    layout: '../layouts/Work',
+    title: 'Work',
+    projects: [
+        {
+            logo: 'TypeMark',
+            title: 'type-mark',
+            href: 'http://ejrbuss.net/type-mark/',
+            summary: 'A runtime type-checking library for JavaScript that supports complex predicates and object inerfaces. Available through npm.',
+        },
+        {
+            logo: 'Mekpie',
+            title: 'Mekpie',
+            href: 'https://ejrbuss.net/mekpie/',
+            summary: 'An opinionated build system for small scale C projects, written and configured using Python. Available through pip.',
+        },
+        {
+            logo: 'DndInitTracker',
+            title: 'D&D Initiative Tracker',
+            href: 'https://ejrbuss.net/dnd-initiative-tracker/',
+            summary: 'A tool to help Dungeon Masters manage players and enemies when playing Dungeons and Dragons. Visit the site and step up your game.'
+        },
+        {
+            logo: 'Ejrbuss',
+            title: 'ejrbuss.net',
+            href: '',
+            summary: 'This website has gone through redevelopment a few times over the years. Read about past mistakes here.',
+        },
+    ],
+    work: [
+        {
+            logo: 'UofA',
+            title: 'UofA Engineering Department',
+            href: '',
+            summary: 'I worked 8 months at the University of Alberta on two seperate coops. I got to work one-on-one with a Mechinical engineering professor as well as help maintain the engineering department\'s intranet.' 
+        },
+        {
+            logo: 'Ericsson',
+            title: 'Ericsson',
+            href: '',
+            summary: 'I worked as an iOS and web developer coop for 8 months at Ericsson\'s Ottawa site. I got to work on a diverse and distributed team of engineers.', 
+        },
+    ],
+}

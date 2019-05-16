@@ -1,0 +1,47 @@
+.work {
+
+    .example {
+        margin-top: @xlg;
+        margin-bottom: @xlg;
+        position: relative;
+        border-left: 1px solid transparent;
+        color: @color-text;
+        display: block;
+
+        &:hover {
+            cursor: pointer;
+            border-left: @border;
+        }
+    }
+
+    .space-keeper {
+        display: inline-block;
+        width: calc(100% - 140px);
+        visibility: hidden;
+    }
+
+    .summary {
+        display: inline-block;
+        position: absolute;
+        top: 50%;
+        left: 130px;
+        transform: translateY(-50%);
+    }
+
+    .tani {
+
+        @keyframes work-lh-animation {
+            from { stroke-dashoffset: 250; }
+            to { stroke-dashoffset: 0; }
+        }
+
+        .lh {
+            stroke-dasharray: 250;
+            stroke-dashoffset: 250;
+            animation: work-lh-animation 1s ease forwards;
+        }
+
+        
+    }
+
+}

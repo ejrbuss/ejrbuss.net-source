@@ -1,0 +1,47 @@
+.archive {
+
+    a {
+        color: inherit;
+        &:hover {
+            text-decoration: none;
+        }
+    }
+
+    .summary {
+        margin: @lg;
+        margin-left: -@lg;
+        margin-right: 0;
+        padding: @lg;
+        padding-bottom: 0;
+        margin-bottom: 0;
+        border: 1px solid transparent;
+        transition: all 0.3s ease 0s;
+
+        &:hover {
+            border-left: @border;
+        }
+    }
+
+    .tani {
+
+        @keyframes archive-lh-animation {
+            from { stroke-dashoffset: 230; }
+            to { stroke-dashoffset: 0; }
+        }
+
+        .lh {
+            stroke-dasharray: 230;
+            stroke-dashoffset: 230;
+            animation: archive-lh-animation 1s ease forwards;
+        }
+
+        .lv {
+            stroke-dasharray: 130;
+            stroke-dashoffset: -130;
+            animation: line-animation 1s ease forwards;
+        }
+
+        
+    }
+
+}

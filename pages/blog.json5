@@ -1,0 +1,4 @@
+{
+    layout: '../layouts/Archive',
+    title: 'Blog Archive',
+}

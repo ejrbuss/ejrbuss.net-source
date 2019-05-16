@@ -32,13 +32,13 @@
             logo: 'UofA',
             title: 'UofA Engineering Department',
             href: '',
-            summary: 'I worked 8 months at the University of Alberta on two seperate coops. I got to work one-on-one with a Mechinical engineering professor as well as help maintain the engineering department\'s intranet.' 
+            summary: 'I worked 8 months at the University of Alberta on two seperate coops. I got to work one-on-one with a Mechanical Engineering Professor as well as help maintain the engineering department\'s intranet.' 
         },
         {
             logo: 'Ericsson',
             title: 'Ericsson',
             href: '',
-            summary: 'I worked as an iOS and web developer coop for 8 months at Ericsson\'s Ottawa site. I got to work on a diverse and distributed team of engineers.', 
+            summary: 'I worked as an iOS and web developer coop for 8 months at Ericsson\'s Ottawa site. I got to work on a diverse and distributed team of engineers.',
         },
     ],
 }

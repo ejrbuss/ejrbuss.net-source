@@ -74,7 +74,7 @@ export default ({
                 {readonly 
                     ? hljs.getLanguage(language)
                         ? <pre dangerouslySetInnerHTML={{ __html: hljs.highlight(language, text).value }} />
-                        : <pre>{value}</pre>
+                        : <pre>{text}</pre>
                     : <textarea 
                         value={text}
                         placeholder={placeholder} 

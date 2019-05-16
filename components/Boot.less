@@ -8,6 +8,9 @@ body {
     font-size: @font-size;
 }
 
+// Cheeky force precedence
+body {
+
 #page {
     min-height: calc(100vh - 141px);
 }
@@ -331,3 +334,5 @@ a {
 @import '../layouts/Archive.less';
 @import '../layouts/Home.less';
 @import '../layouts/Work.less';
+
+} // End of hack

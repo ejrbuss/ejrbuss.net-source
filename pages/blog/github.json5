@@ -1,7 +1,7 @@
 {
     layout: '../../layouts/Blog',
-    title: 'Github Catalog',
-    subtitle: 'A trip down memory lane. I catalog all of my github repositories, both finished projects, and those that never got off the ground.',
+    title: 'GitHub Catalog',
+    subtitle: 'A trip down memory lane. I catalog all of my GitHub repositories, both finished projects, and those that never got off the ground.',
     blog: true,
     date: '05-15-2019',
 }

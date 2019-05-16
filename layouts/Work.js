@@ -28,7 +28,7 @@ export default ({ pageName }) => {
                     showScrollMarker
                     showSearch
                     leftLinks={<Places work />}
-                    rightLinks={<a href='https://github.com/ejrbuss' className='p-md subtle-accent'>
+                    rightLinks={<a target='_blank' href='https://github.com/ejrbuss' className='p-md subtle-accent'>
                         <i className='fab fa-github fa-lg' />
                     </a>}
                 />
@@ -103,7 +103,7 @@ export default ({ pageName }) => {
                     </div>
                     <div className='md'>
                         <h1>Projects</h1>
-                        <p>Here is a curated list of some of my open source projects. For an exhaustive list, I catalog my github repositories <Link href='/blog/github'><a>here</a></Link>.</p>
+                        <p>Here is a curated list of some of my open source projects. For an exhaustive list, I catalog my GitHub repositories <Link href='/blog/github'><a>here</a></Link>.</p>
                         {page.projects.map(({ logo, title, href, summary }, key) => {
                             const Logo = Logos[logo];
                             return (

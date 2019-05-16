@@ -31,7 +31,7 @@ const getHeaderId = props => {
     return getHeaderText(props).replace(/\s/g, '').toLowerCase();
 };
 
-export default ({ source }) => (
+export default ({ source, noHeaderLinks }) => (
     <ReactMarkdown className='md indexable' source={source} renderers={{
 
         code({ value, language }) {
@@ -64,6 +64,9 @@ export default ({ source }) => (
             const id = getHeaderId(props);
             switch (props.level) {
                 case 1: {
+                    if (noHeaderLinks) {
+                        return <h1>{props.children}</h1>;
+                    }
                     return <>
                         <a className='anchor-point' id={id} />
                         <a className='anchor' href={'#' + id}>
@@ -73,6 +76,9 @@ export default ({ source }) => (
                     </>;
                 }
                 case 2: {
+                    if (noHeaderLinks) {
+                        return <h2>{props.children}</h2>;
+                    }
                     return <>
                         <a className='anchor-point' id={id} />
                         <a className='anchor' href={'#' + id}>

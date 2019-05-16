@@ -28,7 +28,7 @@ export default ({ pageName }) => {
                     showScrollMarker
                     showSearch
                     leftLinks={<Places about />}
-                    rightLinks={<a href='https://github.com/ejrbuss' className='p-md subtle-accent'>
+                    rightLinks={<a target='_blank' href='https://github.com/ejrbuss' className='p-md subtle-accent'>
                         <i className='fab fa-github fa-lg' />
                     </a>}
                 />
@@ -106,7 +106,7 @@ export default ({ pageName }) => {
                             ].map(([x, y], key) => <Tani.Tile key={key} x={x} y={y} delayIndex={key} />)}
                         </svg>
                     </div>
-                    <EjrbussMarkdown source={page.content} />
+                    <EjrbussMarkdown source={page.content} noHeaderLinks />
                 </div>
             </div>
             <Footer />

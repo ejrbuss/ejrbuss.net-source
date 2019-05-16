@@ -50,7 +50,7 @@ export default ({ pageName }) => {
                 </div>
                 <div className='social-media animated fadeIn slower'>
                     <SocialMedia accent />
-                    <Copyright />
+                    <Copyright className='hide-sm' />
                 </div>
             </div>
         </>

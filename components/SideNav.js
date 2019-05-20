@@ -11,7 +11,7 @@ const NavItem = ({ active, href, text, children }) => (
 
 export default () => {
     const index = usePageIndex();
-    return <div className='side-nav text-center hide-xl'>
+    return <div className='side-nav hide-xl'>
         <ul className='nav outer d-inline-block text-left'>
             {index.map(({ active: active, href, text, children }, key) => (
                 <NavItem key={key} active={active} href={href} text={text}>

@@ -35,10 +35,15 @@ export default ({ source, noHeaderLinks }) => (
     <ReactMarkdown className='md indexable' source={source} renderers={{
 
         code({ value, language }) {
-            const { lang, immediate, readonly, evaluator, placeholder, nolines } = noSpaceLang(language, { 
+            const { lang, immediate, readonly, evaluator, placeholder, nolines, math } = noSpaceLang(language, { 
                 defaults : { lang: '' },
-                allowed  : ['lang', 'immediate', 'readonly', 'evaluator', 'placeholder', 'nolines'] 
+                allowed  : ['lang', 'immediate', 'readonly', 'evaluator', 'placeholder', 'nolines', 'math'] 
             });
+            if (math) {
+                return (
+                    <div className='math'>{value}</div>
+                );
+            }
             return (
                 <Editor 
                     initialText={placeholder ? undefined : value} 

@@ -1,0 +1,7 @@
+{
+    layout: '../../layouts/Blog',
+    title: 'Creating an RTOS (Pt. 2)',
+    subtitle: 'Designing and implementing a RTOS based on a Time Triggered Architecture',
+    blog: true,
+    date: '05-19-2019',
+}

@@ -6,7 +6,7 @@
             logo: 'TypeMark',
             title: 'type-mark',
             href: 'http://ejrbuss.net/type-mark/',
-            summary: 'A runtime type-checking library for JavaScript that supports complex predicates and object inerfaces. Available through npm.',
+            summary: 'A runtime type-checking library for JavaScript that supports complex predicates and object inerfaces. Heavily extendable by the user. Available through npm.',
         },
         {
             logo: 'Mekpie',
@@ -19,6 +19,12 @@
             title: 'D&D Initiative Tracker',
             href: 'https://ejrbuss.net/dnd-initiative-tracker/',
             summary: 'A tool to help Dungeon Masters manage players and enemies when playing Dungeons and Dragons. Visit the site and step up your game.'
+        },
+        {
+            logo: 'IndiGo',
+            title: 'indiGO',
+            href: 'https://ejrbuss.net/go',
+            summary: 'A webapp of the game Go made by a team of software engineering sudents at the University of Victoria. I was in charge of the front end design and am still proud of the game\'s persona-esque aesthetic.',
         },
         {
             logo: 'Ejrbuss',

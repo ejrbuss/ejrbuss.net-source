@@ -1,0 +1,7 @@
+{
+    layout: '../../layouts/Blog',
+    title: 'Creating an RTOS (Pt. 1)',
+    subtitle: 'Exploring a Time Triggered Scheduler using Arduino and finding the usecase for a barebones RTOS',
+    blog: true,
+    date: '05-19-2019',
+}

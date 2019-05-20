@@ -30,6 +30,14 @@ export default {
         );
     },
 
+    IndiGo() {
+        return (
+            <div className='logos go'>
+                <img width='100' height='100' src='/static/rsc/go.png' style={{ padding: '10px '}} />
+            </div>
+        );
+    },
+
     Ejrbuss() {
         return (
             <div className='logos ejrbuss'>

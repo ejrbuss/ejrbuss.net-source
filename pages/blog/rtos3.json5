@@ -1,0 +1,7 @@
+{
+    layout: '../../layouts/Blog',
+    title: 'Creating an RTOS (Pt. 3)',
+    subtitle: 'Using a handmade RTOS, Arduinos, and some LEDs to battle Roombas',
+    blog: true,
+    date: '05-19-2019',
+}

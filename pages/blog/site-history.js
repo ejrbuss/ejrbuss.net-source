@@ -3,4 +3,4 @@
 import Layout from '../../layouts/Blog';
 
 export default () =>
-    <Layout pageName='rtos1' />;
+    <Layout pageName='site-history' />;

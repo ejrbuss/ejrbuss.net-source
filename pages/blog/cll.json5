@@ -1,0 +1,8 @@
+{
+    layout: '../../layouts/BlogCll',
+    title: 'C Little Lisp',
+    subtitle: 'Writing a little lisp in C from scratch and running it on the web',
+    blog: true,
+    hide: true,
+    date: '05-28-2019',
+}

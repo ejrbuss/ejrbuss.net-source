@@ -3,4 +3,4 @@
 import Layout from '../../layouts/Blog';
 
 export default () =>
-    <Layout pageName='github' />;
+    <Layout pageName='creating-an-rtos-pt-2' />;

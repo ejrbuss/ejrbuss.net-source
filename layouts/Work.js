@@ -123,7 +123,7 @@ export default ({ pageName }) => {
                             );
                         })}
                         <h1>Prior Employment</h1>
-                        <p>My prior employers have helped shaped me into the developer I am today. Follow these links to read about my experiences.</p>
+                        <p>My prior employers have helped shaped me into the developer I am today.</p>
                         {page.work.map(({ logo, title, href, summary }, key) => {
                             const Logo = Logos[logo];
                             return (

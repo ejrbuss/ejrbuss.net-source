@@ -1,0 +1,8 @@
+{
+    layout: '../../layouts/Blog',
+    title: 'Finding a Tasty Language',
+    subtitle: 'Brainstorming the fundamentals for a new programming language',
+    blog: true,
+    hide: true,
+    date: '05-23-2019',
+}

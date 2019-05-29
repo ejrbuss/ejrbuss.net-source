@@ -1,6 +1,6 @@
 > # Author's Note
 >
-> *This blog post is part one in a series originally put together for the University of Victoria's CSC 460 course. The original content was publishd February 6 2019 by [Torrey Randolph](https://github.com/torreyr) and myself. As that webpage no longer exists I am now hosting the content here.*
+> *This blog post is part one in a series originally put together for the University of Victoria's CSC 460 course. The original content was published February 6 2019 by [Torrey Randolph](https://github.com/torreyr) and myself. As that webpage no longer exists I am now hosting the content here.*
 >
 > *Here are links to [part 2](/blog/rtos2) and [part 3](/blog/rtos3).*
 

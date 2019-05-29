@@ -1,0 +1,7 @@
+{
+    layout: '../../layouts/Blog',
+    title: 'Site History',
+    subtitle: 'A look at the technologies used to build this site, and its past iteration',
+    blog: true,
+    date: '05-28-2019',
+}

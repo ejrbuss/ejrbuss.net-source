@@ -6,7 +6,7 @@ listed in \[brackets\].
 
 > JavaScript \[TypeScript React CoffeeScript Express\] / HTML \[Jade/Pug\] /
 > CSS \[Sass Less Bootstrap\] / Python \[Matplotlib Numpy Pandas SciPy TensorFlow\] / 
-> C \[C++ Objective-C iOS AVR ARM OpenGL\] / Java \[Clojure\] / 
+> C \[C++ Objective-C iOS AVR ARM OpenGL\] / Rust / Java \[Clojure\] / 
 > PHP \[CodeIgniter\] / Databases \[SQL MongoDB\] / R / Git / MATLAB / 
 > OS-familiarity \[`icon:fab fa-windows` `icon:fab fa-apple` Ubuntu openSUSE Fedora\]
 

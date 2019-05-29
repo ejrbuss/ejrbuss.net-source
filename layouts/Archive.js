@@ -115,7 +115,7 @@ export default ({ pageName }) => {
                                     <a>
                                         <div className='columns'>
                                             <div className='column col-8 col-sm-12'>{page.title}</div>
-                                            <div className='column col-4 hide-sm subtext'><i className='far fa-calendar' /> {page.$formattedDate}</div>
+                                            <div className='column col-4 hide-sm subtext pt-sm'><i className='far fa-calendar' /> {page.$formattedDate}</div>
                                         </div>
                                     </a>
                                 </Link>

@@ -83,8 +83,6 @@ export default ({ pageName }) => {
                                 [150, 60],
                                 [160, 60],
                                 [160, 50],
-                                [160, 70],
-                                [160, 80],
                             ].map(([x, y], key) => <Tani.Tile key={key} x={x} y={y} delayIndex={key} />)}
                             {[  // K
                                 [180, 40],
@@ -92,13 +90,14 @@ export default ({ pageName }) => {
                                 [180, 60],
                                 [180, 70],
                                 [180, 80],
-                                [190, 60],
-                                [200, 40],
-                                [200, 50],
-                                [200, 60],
-                                [200, 70],
-                                [200, 80],
                             ].map(([x, y], key) => <Tani.Tile key={key} x={x} y={y} delayIndex={key} />)}
+                            <Tani.PolygonTile points='155 70 157.5 80 167.5 80 165 70' delayIndex='10' />
+                            <Tani.PolygonTile points='157.5 80 160 90 170 90 167.5 80' delayIndex='11' />
+                            <Tani.PolygonTile points='190 65 192 70 202 70 200 65 202 60 192 60' delayIndex='5' />
+                            <Tani.PolygonTile points='192 70 196 80 206 80 202 70' delayIndex='6' />
+                            <Tani.PolygonTile points='196 80 200 90 210 90 206 80' delayIndex='7' />
+                            <Tani.PolygonTile points='192 60 196 50 206 50 202 60' delayIndex='8' />
+                            <Tani.PolygonTile points='196 50 200 40 210 40 206 50' delayIndex='9' />
                         </svg>
                     </div>
                     <div className='md'>

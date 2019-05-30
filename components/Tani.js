@@ -4,11 +4,15 @@ import _ from 'lodash';
 const Tani = {
 
     Tile({ x, y, delayIndex }) {
+        return Tani.PolygonTile({ points: `${x} ${y}, ${x} ${y + 10}, ${x + 10} ${y + 10}, ${x + 10} ${y}`, delayIndex });
+    },
+
+    PolygonTile({ points, delayIndex }) {
         const [hover, setHover] = useState(false);
         return (
             <polygon 
                 className={`tile ${hover ? 'hover' : ''}`}
-                points={`${x} ${y}, ${x} ${y + 10}, ${x + 10} ${y + 10}, ${x + 10} ${y}`}
+                points={points}
                 style={{ animationDelay: delayIndex * 0.1 + 's' }}
                 onMouseEnter={() => setHover(true)}
                 onMouseLeave={() => setTimeout(() => setHover(false), 150)}

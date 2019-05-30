@@ -5629,7 +5629,7 @@ run();
     cll_eval = Module.cwrap('js_eval', 'string', ['string']);
 
     cll_init();
-    cll_eval(
+    console.log(cll_eval(
         `
         (do
         ;; Macros
@@ -5834,10 +5834,27 @@ run();
               (= c 2) (str (fst s) sep (snd s))
               :else   (str (fst s) sep (str-join sep (rst s))))))
 
+        (defn cons! [i r]
+          (set! r (cons i @r)))
+
+        (def stdout (ref []))
+
+        (defn print [& args]
+          (cons! (str-join " " args) stdout))
+
+        (defn println [& args]
+          (call print (concat args ["\\n"])))
+
+        (defn dump-stdout [arg]
+          (cons! arg stdout)
+          (let { result (str-join "" (reverse @stdout)) } 
+            (set! stdout [])
+            result))
+
+          "cll ready"
         )
         `
-    );
-    console.log('ready');
+    ));
   };
   const recurse = () => {
     if (runtimeInitialized) {

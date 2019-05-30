@@ -14,7 +14,12 @@ import { registerEvaluator } from '../components/EjrbussMarkdown';
 
 registerEvaluator('cllEvaluator', src => {
     if (cll_eval) {
-        return cll_eval(`(do ${src})`);
+        const result = cll_eval(`(dump-stdout (do ${src}))`).replace(/^"|"$/g, '');
+        if (/^:[\w_-]+?Error(.|\n)*?at/.test(result)) {
+            return <span className='clr-error'>{result}</span>;
+        } else {
+            return result;
+        }
     }
     return 'cll is not loaded yet!'
 });
